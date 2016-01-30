@@ -1,10 +1,10 @@
 ********************************************************************************
-*                      Saturday, 30 January 2016 18:10:49                      *
+*                      Saturday, 30 January 2016 18:35:44                      *
 ********************************************************************************
 CSharpCompilerWrapper.exe version: 1.6.1.0
 Platform: Mac
 Target assembly: /Assembly-CSharp-firstpass.dll
-Project directory: /Users/bescott/Developer/GameJam
+Project directory: /Users/bescott/Developer/game-jam
 Unity 'Data' or 'Frameworks' directory: /Applications/Unity/Unity.app/Contents/Frameworks
 Microsoft C# 6.0 compiler found, but it is not supported on the current platform. Looking for another compiler...
 Compiler: Mono C# 6.0
@@ -12,7 +12,7 @@ Compiler: Mono C# 6.0
 - Compilation -----------------------------------------------
 
 Process: /Applications/Unity/Unity.app/Contents/Frameworks/MonoBleedingEdge/bin/mono
-Arguments: "/Users/bescott/Developer/GameJam/CSharp60Support/mcs.exe" -sdk:2 -debug+ -langversion:Default @Temp/UnityTempFile-e046eb9421a444f10a1a7a527c24bd9e
+Arguments: "/Users/bescott/Developer/game-jam/CSharp60Support/mcs.exe" -sdk:2 -debug+ -langversion:Default @Temp/UnityTempFile-7dae7099566014bd9bfe417db8c1ff52
 Exit code: 0
 Elapsed time: 0.86 sec
 
@@ -20,12 +20,12 @@ Elapsed time: 0.86 sec
 
 - Compiler errors (0 lines):
 ********************************************************************************
-*                      Saturday, 30 January 2016 18:10:51                      *
+*                      Saturday, 30 January 2016 18:35:46                      *
 ********************************************************************************
 CSharpCompilerWrapper.exe version: 1.6.1.0
 Platform: Mac
 Target assembly: /Assembly-CSharp.dll
-Project directory: /Users/bescott/Developer/GameJam
+Project directory: /Users/bescott/Developer/game-jam
 Unity 'Data' or 'Frameworks' directory: /Applications/Unity/Unity.app/Contents/Frameworks
 Microsoft C# 6.0 compiler found, but it is not supported on the current platform. Looking for another compiler...
 Compiler: Mono C# 6.0
@@ -33,20 +33,20 @@ Compiler: Mono C# 6.0
 - Compilation -----------------------------------------------
 
 Process: /Applications/Unity/Unity.app/Contents/Frameworks/MonoBleedingEdge/bin/mono
-Arguments: "/Users/bescott/Developer/GameJam/CSharp60Support/mcs.exe" -sdk:2 -debug+ -langversion:Default @Temp/UnityTempFile-b1f53d487b11a4d7b82315d26cb486d6
+Arguments: "/Users/bescott/Developer/game-jam/CSharp60Support/mcs.exe" -sdk:2 -debug+ -langversion:Default @Temp/UnityTempFile-fd9a884f4bc644a419cad9ab7f9851a3
 Exit code: 0
-Elapsed time: 0.82 sec
+Elapsed time: 0.84 sec
 
 - Compiler output (0 lines):
 
 - Compiler errors (0 lines):
 ********************************************************************************
-*                      Saturday, 30 January 2016 18:10:52                      *
+*                      Saturday, 30 January 2016 18:35:47                      *
 ********************************************************************************
 CSharpCompilerWrapper.exe version: 1.6.1.0
 Platform: Mac
 Target assembly: /Assembly-CSharp-Editor.dll
-Project directory: /Users/bescott/Developer/GameJam
+Project directory: /Users/bescott/Developer/game-jam
 Unity 'Data' or 'Frameworks' directory: /Applications/Unity/Unity.app/Contents/Frameworks
 Microsoft C# 6.0 compiler found, but it is not supported on the current platform. Looking for another compiler...
 Compiler: Mono C# 6.0
@@ -54,9 +54,116 @@ Compiler: Mono C# 6.0
 - Compilation -----------------------------------------------
 
 Process: /Applications/Unity/Unity.app/Contents/Frameworks/MonoBleedingEdge/bin/mono
-Arguments: "/Users/bescott/Developer/GameJam/CSharp60Support/mcs.exe" -sdk:2 -debug+ -langversion:Default @Temp/UnityTempFile-1616a2da856b041d68638173b7215aee
+Arguments: "/Users/bescott/Developer/game-jam/CSharp60Support/mcs.exe" -sdk:2 -debug+ -langversion:Default @Temp/UnityTempFile-1c5c6120711394a96b3da2e5702b85be
 Exit code: 0
 Elapsed time: 0.69 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (0 lines):
+********************************************************************************
+*                      Saturday, 30 January 2016 18:37:32                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.6.1.0
+Platform: Mac
+Target assembly: /Assembly-CSharp-firstpass.dll
+Project directory: /Users/bescott/Developer/game-jam
+Unity 'Data' or 'Frameworks' directory: /Applications/Unity/Unity.app/Contents/Frameworks
+Microsoft C# 6.0 compiler found, but it is not supported on the current platform. Looking for another compiler...
+Compiler: Mono C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: /Applications/Unity/Unity.app/Contents/Frameworks/MonoBleedingEdge/bin/mono
+Arguments: "/Users/bescott/Developer/game-jam/CSharp60Support/mcs.exe" -sdk:2 -debug+ -langversion:Default @Temp/UnityTempFile-51624255578844ab78744c360637e31f
+Exit code: 0
+Elapsed time: 0.86 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (0 lines):
+********************************************************************************
+*                      Saturday, 30 January 2016 18:37:33                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.6.1.0
+Platform: Mac
+Target assembly: /Assembly-CSharp.dll
+Project directory: /Users/bescott/Developer/game-jam
+Unity 'Data' or 'Frameworks' directory: /Applications/Unity/Unity.app/Contents/Frameworks
+Microsoft C# 6.0 compiler found, but it is not supported on the current platform. Looking for another compiler...
+Compiler: Mono C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: /Applications/Unity/Unity.app/Contents/Frameworks/MonoBleedingEdge/bin/mono
+Arguments: "/Users/bescott/Developer/game-jam/CSharp60Support/mcs.exe" -sdk:2 -debug+ -langversion:Default @Temp/UnityTempFile-d9b82510ba153413fabc6569723c737a
+Exit code: 0
+Elapsed time: 0.83 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (0 lines):
+********************************************************************************
+*                      Saturday, 30 January 2016 18:37:34                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.6.1.0
+Platform: Mac
+Target assembly: /Assembly-CSharp-Editor.dll
+Project directory: /Users/bescott/Developer/game-jam
+Unity 'Data' or 'Frameworks' directory: /Applications/Unity/Unity.app/Contents/Frameworks
+Microsoft C# 6.0 compiler found, but it is not supported on the current platform. Looking for another compiler...
+Compiler: Mono C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: /Applications/Unity/Unity.app/Contents/Frameworks/MonoBleedingEdge/bin/mono
+Arguments: "/Users/bescott/Developer/game-jam/CSharp60Support/mcs.exe" -sdk:2 -debug+ -langversion:Default @Temp/UnityTempFile-ebea63f5495a848df85c3e9aace86275
+Exit code: 0
+Elapsed time: 0.70 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (0 lines):
+********************************************************************************
+*                      Saturday, 30 January 2016 18:38:41                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.6.1.0
+Platform: Mac
+Target assembly: /Assembly-CSharp.dll
+Project directory: /Users/bescott/Developer/game-jam
+Unity 'Data' or 'Frameworks' directory: /Applications/Unity/Unity.app/Contents/Frameworks
+Microsoft C# 6.0 compiler found, but it is not supported on the current platform. Looking for another compiler...
+Compiler: Mono C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: /Applications/Unity/Unity.app/Contents/Frameworks/MonoBleedingEdge/bin/mono
+Arguments: "/Users/bescott/Developer/game-jam/CSharp60Support/mcs.exe" -sdk:2 -debug+ -langversion:Default @Temp/UnityTempFile-9c933027939b24b088ed6cf7312921af
+Exit code: 0
+Elapsed time: 0.84 sec
+
+- Compiler output (1 line):
+0: Compilation succeeded - 1 warning(s)
+
+- Compiler errors (1 line):
+0: Assets/Scripts/TextTrigger.cs(6,7): warning CS0414: The private field `TextTrigger.isPlayerNear' is assigned but its value is never used
+********************************************************************************
+*                      Saturday, 30 January 2016 18:38:42                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.6.1.0
+Platform: Mac
+Target assembly: /Assembly-CSharp-Editor.dll
+Project directory: /Users/bescott/Developer/game-jam
+Unity 'Data' or 'Frameworks' directory: /Applications/Unity/Unity.app/Contents/Frameworks
+Microsoft C# 6.0 compiler found, but it is not supported on the current platform. Looking for another compiler...
+Compiler: Mono C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: /Applications/Unity/Unity.app/Contents/Frameworks/MonoBleedingEdge/bin/mono
+Arguments: "/Users/bescott/Developer/game-jam/CSharp60Support/mcs.exe" -sdk:2 -debug+ -langversion:Default @Temp/UnityTempFile-3c7b4ec1a4fe34b3192927513cfa85b4
+Exit code: 0
+Elapsed time: 0.70 sec
 
 - Compiler output (0 lines):
 
