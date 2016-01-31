@@ -12,9 +12,8 @@ public class SwitchArea : MonoBehaviour {
 	GameObject player;
 	public AudioClip clip;
 
-	void Awake() {
+	void Awake() =>
 		GetComponent<Collider2D>().isTrigger = true;
-	}
 
 
 	IEnumerator Switching() {
@@ -27,7 +26,6 @@ public class SwitchArea : MonoBehaviour {
 		SceneManager.LoadSceneAsync(level+" "+n);
 		yield return new WaitForSeconds(delay);
 		SceneManager.MoveGameObjectToScene(player,scene);
-		print("AAAAA"+player.transform.position);
 		//player.transform.position = position;
 		SceneManager.SetActiveScene(scene);
 		SceneManager.UnloadScene(
