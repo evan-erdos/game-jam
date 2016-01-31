@@ -10,6 +10,7 @@ public class SwitchArea : MonoBehaviour {
 	int n = 0;
 	public string level = "Forest";
 	GameObject player;
+	public AudioClip clip;
 
 	void Awake() {
 		GetComponent<Collider2D>().isTrigger = true;
@@ -19,6 +20,7 @@ public class SwitchArea : MonoBehaviour {
 	IEnumerator Switching() {
 		if (wait) yield break;
 		wait = true;
+		AudioSource.PlayClipAtPoint(clip, transform.position, 0.8f);
 		UnityStandardAssets._2D.PlatformerCharacter2D.storePosition = player.transform.position;
 		var scene = SceneManager.GetSceneByName(level+" "+n);
 		SceneManager.LoadSceneAsync(level+" "+n);
