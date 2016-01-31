@@ -251,7 +251,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   n: 0
-  level: Forest
+  level: School
   clip: {fileID: 0}
 --- !u!61 &376468304
 BoxCollider2D:
