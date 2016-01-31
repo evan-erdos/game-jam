@@ -9,7 +9,7 @@ public class SwitchArea : MonoBehaviour {
 	float delay = 3f;
 	int n = 0;
 	public string level = "Forest";
-	GameObject player;
+	public GameObject player;
 
 	void Awake() {
 		GetComponent<Collider2D>().isTrigger = true;
@@ -37,14 +37,14 @@ public class SwitchArea : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D other) {
 		if (!other.attachedRigidbody) return;
 		if (other.attachedRigidbody.gameObject.tag!="Player") return;
-		player = other.attachedRigidbody.gameObject;
+		//player = other.attachedRigidbody.gameObject;
 		isPlayerNear = true;
 	}
 
 	void OnTriggerExit2D(Collider2D other) {
 		if (!other.attachedRigidbody) return;
 		if (other.attachedRigidbody.gameObject.tag!="Player") return;
-		player = null;
+		//player = null;
 		isPlayerNear = false;
 	}
 
