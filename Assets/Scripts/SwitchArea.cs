@@ -6,7 +6,7 @@ using System.Collections;
 public class SwitchArea : MonoBehaviour {
 
 	bool wait, isPlayerNear;
-	float delay = 3f;
+	float delay = 0.1f;
 	int n = 0;
 	public string level = "Forest";
 	GameObject player;
@@ -19,10 +19,13 @@ public class SwitchArea : MonoBehaviour {
 	IEnumerator Switching() {
 		if (wait) yield break;
 		wait = true;
+		UnityStandardAssets._2D.PlatformerCharacter2D.storePosition = player.transform.position;
 		var scene = SceneManager.GetSceneByName(level+" "+n);
 		SceneManager.LoadSceneAsync(level+" "+n);
 		yield return new WaitForSeconds(delay);
 		SceneManager.MoveGameObjectToScene(player,scene);
+		print("AAAAA"+player.transform.position);
+		//player.transform.position = position;
 		SceneManager.SetActiveScene(scene);
 		SceneManager.UnloadScene(
 			SceneManager.GetActiveScene().buildIndex);

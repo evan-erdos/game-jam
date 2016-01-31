@@ -1,10 +1,16 @@
 using System;
+
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 namespace UnityStandardAssets._2D
 {
     public class PlatformerCharacter2D : MonoBehaviour
     {
+
+        public static Vector3 storePosition = Vector3.zero;
+
         [SerializeField] private float m_MaxSpeed = 10f;                    // The fastest the player can travel in the x axis.
         [SerializeField] private float m_JumpForce = 400f;                  // Amount of force added when the player jumps.
         [Range(0, 1)] [SerializeField] private float m_CrouchSpeed = .36f;  // Amount of maxSpeed applied to crouching movement. 1 = 100%
@@ -22,11 +28,21 @@ namespace UnityStandardAssets._2D
 
         private void Awake()
         {
+
             // Setting up references.
             m_GroundCheck = transform.Find("GroundCheck");
             m_CeilingCheck = transform.Find("CeilingCheck");
             m_Anim = GetComponent<Animator>();
             m_Rigidbody2D = GetComponent<Rigidbody2D>();
+        }
+
+        void OnLevelWasLoaded() {
+            Camera.main.GetComponent<Camera2DFollow>().target = transform;
+        }
+
+        void Start() {
+//            SceneManager.LoadScene("Common 0");
+            DontDestroyOnLoad(transform.gameObject);
         }
 
 
@@ -48,6 +64,22 @@ namespace UnityStandardAssets._2D
             m_Anim.SetFloat("vSpeed", m_Rigidbody2D.velocity.y);
         }
 
+        void OnCollisionStay2D(Collision2D hit) {
+//            Debug.Log ("Collision!");
+            if (hit.gameObject.tag == "Platform") {
+                Debug.Log ("Collision with platform!");
+                transform.parent = hit.transform;
+            }
+            //} else {
+        //      transform.parent = null;
+        //  }
+
+        }
+
+        void OnCollisionExit2D(Collision2D hit) {
+            transform.parent = null;
+//            Debug.Log ("Collision Exit!");
+        }
 
         public void Move(float move, bool crouch, bool jump)
         {
