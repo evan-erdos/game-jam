@@ -1,23 +1,70 @@
 fileFormatVersion: 2
-guid: 803baf1ea73913f46b25e07d0a79df22
+guid: a3b7399c2c8b54de4aac6c60b97a6f38
+timeCreated: 1454209917
+licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
-    21300000: RobotBoyRun00
-    21300002: RobotBoyRun01
-    21300004: RobotBoyRun02
-    21300006: RobotBoyRun03
-    21300008: RobotBoyRun04
-    21300010: RobotBoyRun05
-    21300012: RobotBoyRun06
-    21300014: RobotBoyRun07
-    21300016: RobotBoyRun08
-    21300018: RobotBoyRun09
-    21300020: RobotBoyRun10
-    21300022: RobotBoyRun11
-    21300024: RobotBoyRun12
-    21300026: RobotBoyRun13
-    21300028: RobotBoyRun14
-    21300030: RobotBoyRun15
+    21300000: RobotBoyRunSprite_0
+    21300002: RobotBoyRunSprite_1
+    21300004: RobotBoyRunSprite_2
+    21300006: RobotBoyRunSprite_3
+    21300008: RobotBoyRunSprite_4
+    21300010: RobotBoyRunSprite_5
+    21300012: RobotBoyRunSprite_6
+    21300014: RobotBoyRunSprite_7
+    21300016: RobotBoyRunSprite_8
+    21300018: RobotBoyRunSprite_9
+    21300020: RobotBoyRunSprite_10
+    21300022: RobotBoyRunSprite_11
+    21300024: RobotBoyRunSprite_12
+    21300026: RobotBoyRunSprite_13
+    21300028: RobotBoyRunSprite_14
+    21300030: RobotBoyRunSprite_15
+    21300032: RobotBoyRunSprite_16
+    21300034: RobotBoyRunSprite_17
+    21300036: RobotBoyRunSprite_18
+    21300038: RobotBoyRunSprite_19
+    21300040: RobotBoyRunSprite_20
+    21300042: RobotBoyRunSprite_21
+    21300044: RobotBoyRunSprite_22
+    21300046: RobotBoyRunSprite_23
+    21300048: RobotBoyRunSprite_24
+    21300050: RobotBoyRunSprite_25
+    21300052: RobotBoyRunSprite_26
+    21300054: RobotBoyRunSprite_27
+    21300056: RobotBoyRunSprite_28
+    21300058: RobotBoyRunSprite_29
+    21300060: RobotBoyRunSprite_30
+    21300062: RobotBoyRunSprite_31
+    21300064: RobotBoyRunSprite_32
+    21300066: RobotBoyRunSprite_33
+    21300068: RobotBoyRunSprite_34
+    21300070: RobotBoyRunSprite_35
+    21300072: RobotBoyRunSprite_36
+    21300074: RobotBoyRunSprite_37
+    21300076: RobotBoyRunSprite_38
+    21300078: RobotBoyRunSprite_39
+    21300080: RobotBoyRunSprite_40
+    21300082: RobotBoyRunSprite_41
+    21300084: RobotBoyRunSprite_42
+    21300086: RobotBoyRunSprite_43
+    21300088: RobotBoyRunSprite_44
+    21300090: RobotBoyRunSprite_45
+    21300092: RobotBoyRunSprite_46
+    21300094: RobotBoyRunSprite_47
+    21300096: RobotBoyRunSprite_48
+    21300098: RobotBoyRunSprite_49
+    21300100: RobotBoyRunSprite_50
+    21300102: RobotBoyRunSprite_51
+    21300104: RobotBoyRunSprite_52
+    21300106: RobotBoyRunSprite_53
+    21300108: RobotBoyRunSprite_54
+    21300110: RobotBoyRunSprite_55
+    21300112: RobotBoyRunSprite_56
+    21300114: RobotBoyRunSprite_57
+    21300116: RobotBoyRunSprite_58
+    21300118: RobotBoyRunSprite_59
+    21300120: RobotBoyRunSprite_60
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -31,214 +78,787 @@ TextureImporter:
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
   generateCubemap: 0
   cubemapConvolution: 0
-  cubemapConvolutionSteps: 8
+  cubemapConvolutionSteps: 7
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: 1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
+  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 200
   alphaIsTransparency: 1
   textureType: 8
-  buildTargetSettings:
-  - buildTarget: iPhone
-    maxTextureSize: 1024
-    textureFormat: -2
-    compressionQuality: 100
-  - buildTarget: Android
-    maxTextureSize: 1024
-    textureFormat: -1
-    compressionQuality: 50
-  - buildTarget: BlackBerry
-    maxTextureSize: 1024
-    textureFormat: -1
-    compressionQuality: 50
-  - buildTarget: WP8
-    maxTextureSize: 1024
-    textureFormat: -1
-    compressionQuality: 50
+  buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: RobotBoyRun00
+    - name: RobotBoyRunSprite_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 1773
-        width: 275
-        height: 275
+        y: 1648
+        width: 285
+        height: 400
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: RobotBoyRun01
+      outline:
+      - - {x: 106.5, y: -191}
+        - {x: 106.5, y: -194}
+        - {x: 108.5, y: -196}
+        - {x: 111.5, y: -196}
+        - {x: 113.5, y: -194}
+        - {x: 114.5, y: -188}
+        - {x: 111.5, y: -186}
+      - - {x: 101.5, y: 4}
+        - {x: 101.5, y: 64}
+        - {x: 94.5, y: 81}
+        - {x: 68.5, y: 120}
+        - {x: 34.5, y: 131}
+        - {x: -36.5, y: 131}
+        - {x: -66.5, y: 111}
+        - {x: -74.5, y: 70}
+        - {x: -99.5, y: 38}
+        - {x: -99.5, y: 21}
+        - {x: -93.5, y: 1}
+        - {x: -99.5, y: -47}
+        - {x: -99.5, y: -102}
+        - {x: -66.5, y: -134}
+        - {x: 14.5, y: -140}
+        - {x: 55.5, y: -140}
+        - {x: 74.5, y: -134}
+        - {x: 88.5, y: -113}
+        - {x: 99.5, y: -8}
+    - name: RobotBoyRunSprite_1
       rect:
         serializedVersion: 2
-        x: 275
-        y: 1773
-        width: 275
-        height: 275
+        x: 285
+        y: 1648
+        width: 285
+        height: 400
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: RobotBoyRun02
+      outline:
+      - - {x: 110.5, y: -191}
+        - {x: 110.5, y: -194}
+        - {x: 112.5, y: -196}
+        - {x: 115.5, y: -196}
+        - {x: 117.5, y: -194}
+        - {x: 118.5, y: -188}
+        - {x: 115.5, y: -186}
+      - - {x: 103.5, y: 75}
+        - {x: 51.5, y: 132}
+        - {x: -34.5, y: 132}
+        - {x: -64.5, y: 111}
+        - {x: -103.5, y: 47}
+        - {x: -103.5, y: 20}
+        - {x: -95.5, y: -14}
+        - {x: -100.5, y: -94}
+        - {x: -88.5, y: -117}
+        - {x: -14.5, y: -139}
+        - {x: 59.5, y: -139}
+        - {x: 75.5, y: -133}
+        - {x: 90.5, y: -112}
+        - {x: 103.5, y: -26}
+      - - {x: -138.5, y: 90}
+        - {x: -142.5, y: 86}
+        - {x: -142.5, y: 81}
+        - {x: -140.5, y: 80}
+        - {x: -136.5, y: 80}
+        - {x: -134.5, y: 83}
+        - {x: -134.5, y: 88}
+        - {x: -135.5, y: 90}
+    - name: RobotBoyRunSprite_2
       rect:
         serializedVersion: 2
-        x: 550
-        y: 1773
-        width: 275
-        height: 275
+        x: 570
+        y: 1648
+        width: 285
+        height: 400
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: RobotBoyRun03
+      outline:
+      - - {x: 113.5, y: -192}
+        - {x: 113.5, y: -195}
+        - {x: 115.5, y: -197}
+        - {x: 118.5, y: -197}
+        - {x: 120.5, y: -195}
+        - {x: 121.5, y: -189}
+        - {x: 118.5, y: -187}
+      - - {x: 106.5, y: 41}
+        - {x: 102.5, y: 37}
+        - {x: 101.5, y: 29}
+        - {x: 98.5, y: 26}
+        - {x: 97.5, y: 22}
+        - {x: 96.5, y: 23}
+        - {x: 100.5, y: 28}
+        - {x: 107.5, y: 73}
+        - {x: 107.5, y: 76}
+        - {x: 58.5, y: 132}
+        - {x: -72.5, y: 132}
+        - {x: -108.5, y: 89}
+        - {x: -108.5, y: -84}
+        - {x: -82.5, y: -139}
+        - {x: 87.5, y: -139}
+        - {x: 94.5, y: -112}
+        - {x: 107.5, y: -22}
+        - {x: 107.5, y: 38}
+      - - {x: -134.5, y: 90}
+        - {x: -138.5, y: 86}
+        - {x: -138.5, y: 81}
+        - {x: -136.5, y: 80}
+        - {x: -132.5, y: 80}
+        - {x: -130.5, y: 83}
+        - {x: -130.5, y: 88}
+        - {x: -131.5, y: 90}
+      - - {x: -129.5, y: 109}
+        - {x: -136.5, y: 109}
+        - {x: -136.5, y: 101}
+        - {x: -135.5, y: 97}
+        - {x: -133.5, y: 96}
+        - {x: -129.5, y: 96}
+        - {x: -127.5, y: 101}
+        - {x: -127.5, y: 106}
+    - name: RobotBoyRunSprite_3
       rect:
         serializedVersion: 2
-        x: 825
-        y: 1773
-        width: 275
-        height: 275
+        x: 855
+        y: 1648
+        width: 285
+        height: 400
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: RobotBoyRun04
+      outline:
+      - - {x: 116.5, y: -191}
+        - {x: 116.5, y: -194}
+        - {x: 118.5, y: -196}
+        - {x: 121.5, y: -196}
+        - {x: 123.5, y: -194}
+        - {x: 124.5, y: -188}
+        - {x: 121.5, y: -186}
+      - - {x: 105.5, y: 36}
+        - {x: 104.5, y: 28}
+        - {x: 101.5, y: 25}
+        - {x: 100.5, y: 21}
+        - {x: 99.5, y: 22}
+        - {x: 103.5, y: 27}
+        - {x: 110.5, y: 72}
+        - {x: 110.5, y: 75}
+        - {x: 61.5, y: 131}
+        - {x: -25.5, y: 131}
+        - {x: -33.5, y: 130}
+        - {x: -114.5, y: 89}
+        - {x: -114.5, y: -50}
+        - {x: -81.5, y: -140}
+        - {x: 99.5, y: -140}
+        - {x: 110.5, y: -74}
+        - {x: 110.5, y: 39}
+        - {x: 109.5, y: 40}
+      - - {x: -131.5, y: 89}
+        - {x: -135.5, y: 85}
+        - {x: -135.5, y: 80}
+        - {x: -133.5, y: 79}
+        - {x: -129.5, y: 79}
+        - {x: -127.5, y: 82}
+        - {x: -127.5, y: 87}
+        - {x: -128.5, y: 89}
+      - - {x: -125.5, y: 109}
+        - {x: -132.5, y: 109}
+        - {x: -132.5, y: 101}
+        - {x: -131.5, y: 97}
+        - {x: -129.5, y: 96}
+        - {x: -125.5, y: 96}
+        - {x: -123.5, y: 101}
+        - {x: -123.5, y: 106}
+    - name: RobotBoyRunSprite_4
       rect:
         serializedVersion: 2
-        x: 1100
-        y: 1773
-        width: 275
-        height: 275
+        x: 1140
+        y: 1648
+        width: 285
+        height: 400
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: RobotBoyRun05
+      outline:
+      - - {x: 119.5, y: -192}
+        - {x: 119.5, y: -195}
+        - {x: 121.5, y: -197}
+        - {x: 124.5, y: -197}
+        - {x: 126.5, y: -195}
+        - {x: 127.5, y: -189}
+        - {x: 124.5, y: -187}
+      - - {x: 111.5, y: 38}
+        - {x: 108.5, y: 37}
+        - {x: 107.5, y: 29}
+        - {x: 104.5, y: 26}
+        - {x: 103.5, y: 22}
+        - {x: 102.5, y: 23}
+        - {x: 106.5, y: 28}
+        - {x: 113.5, y: 73}
+        - {x: 113.5, y: 76}
+        - {x: 64.5, y: 132}
+        - {x: -49.5, y: 132}
+        - {x: -102.5, y: 85}
+        - {x: -102.5, y: -66}
+        - {x: -78.5, y: -139}
+        - {x: 82.5, y: -139}
+        - {x: 105.5, y: -114}
+        - {x: 113.5, y: -23}
+        - {x: 113.5, y: 38}
+      - - {x: -128.5, y: 90}
+        - {x: -132.5, y: 86}
+        - {x: -132.5, y: 81}
+        - {x: -130.5, y: 80}
+        - {x: -126.5, y: 80}
+        - {x: -124.5, y: 83}
+        - {x: -124.5, y: 88}
+        - {x: -125.5, y: 90}
+      - - {x: -122.5, y: 108}
+        - {x: -129.5, y: 108}
+        - {x: -129.5, y: 100}
+        - {x: -128.5, y: 96}
+        - {x: -126.5, y: 95}
+        - {x: -122.5, y: 95}
+        - {x: -120.5, y: 100}
+        - {x: -120.5, y: 105}
+    - name: RobotBoyRunSprite_5
       rect:
         serializedVersion: 2
-        x: 1375
-        y: 1773
-        width: 275
-        height: 275
+        x: 1425
+        y: 1648
+        width: 285
+        height: 400
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: RobotBoyRun06
-      rect:
-        serializedVersion: 2
-        x: 1650
-        y: 1773
-        width: 275
-        height: 275
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: RobotBoyRun07
+      outline:
+      - - {x: 114.5, y: 74}
+        - {x: 66.5, y: 131}
+        - {x: -18.5, y: 131}
+        - {x: -27.5, y: 130}
+        - {x: -48.5, y: 109}
+        - {x: -90.5, y: 46}
+        - {x: -90.5, y: 19}
+        - {x: -82.5, y: -15}
+        - {x: -87.5, y: -95}
+        - {x: -74.5, y: -111}
+        - {x: -48.5, y: -127}
+        - {x: 4.5, y: -140}
+        - {x: 82.5, y: -140}
+        - {x: 92.5, y: -139}
+        - {x: 103.5, y: -113}
+        - {x: 116.5, y: -12}
+        - {x: 116.5, y: 65}
+      - - {x: -125.5, y: 89}
+        - {x: -129.5, y: 85}
+        - {x: -129.5, y: 80}
+        - {x: -127.5, y: 79}
+        - {x: -123.5, y: 79}
+        - {x: -121.5, y: 82}
+        - {x: -121.5, y: 87}
+        - {x: -122.5, y: 89}
+      - - {x: -119.5, y: 109}
+        - {x: -126.5, y: 109}
+        - {x: -126.5, y: 101}
+        - {x: -125.5, y: 97}
+        - {x: -123.5, y: 96}
+        - {x: -119.5, y: 96}
+        - {x: -117.5, y: 101}
+        - {x: -117.5, y: 106}
+    - name: RobotBoyRunSprite_6
       rect:
         serializedVersion: 2
         x: 0
-        y: 1498
-        width: 275
-        height: 275
+        y: 1248
+        width: 285
+        height: 400
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: RobotBoyRun08
+      outline:
+      - - {x: 108.5, y: -199}
+        - {x: 108.5, y: -200}
+        - {x: 114.5, y: -200}
+        - {x: 114.5, y: -198}
+        - {x: 112.5, y: -196}
+        - {x: 111.5, y: -196}
+      - - {x: 101.5, y: -7}
+        - {x: 101.5, y: 53}
+        - {x: 94.5, y: 71}
+        - {x: 68.5, y: 110}
+        - {x: 34.5, y: 121}
+        - {x: -36.5, y: 121}
+        - {x: -66.5, y: 101}
+        - {x: -74.5, y: 60}
+        - {x: -99.5, y: 28}
+        - {x: -99.5, y: 13}
+        - {x: -92.5, y: -9}
+        - {x: -99.5, y: -58}
+        - {x: -99.5, y: -112}
+        - {x: -65.5, y: -143}
+        - {x: 1.5, y: -148}
+        - {x: 21.5, y: -150}
+        - {x: 58.5, y: -150}
+        - {x: 73.5, y: -144}
+        - {x: 88.5, y: -123}
+        - {x: 99.5, y: -18}
+    - name: RobotBoyRunSprite_7
       rect:
         serializedVersion: 2
-        x: 275
-        y: 1498
-        width: 275
-        height: 275
+        x: 285
+        y: 1248
+        width: 285
+        height: 400
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: RobotBoyRun09
+      outline:
+      - - {x: 112.5, y: -199}
+        - {x: 112.5, y: -200}
+        - {x: 118.5, y: -200}
+        - {x: 118.5, y: -198}
+        - {x: 116.5, y: -196}
+        - {x: 115.5, y: -196}
+      - - {x: 103.5, y: -15}
+        - {x: 103.5, y: 30}
+        - {x: 98.5, y: 63}
+        - {x: 71.5, y: 100}
+        - {x: 47.5, y: 120}
+        - {x: 34.5, y: 122}
+        - {x: -34.5, y: 122}
+        - {x: -64.5, y: 101}
+        - {x: -103.5, y: 49}
+        - {x: -103.5, y: 5}
+        - {x: -98.5, y: -10}
+        - {x: -103.5, y: -94}
+        - {x: -103.5, y: -106}
+        - {x: -64.5, y: -144}
+        - {x: 15.5, y: -149}
+        - {x: 58.5, y: -149}
+        - {x: 75.5, y: -143}
+        - {x: 90.5, y: -122}
+        - {x: 95.5, y: -34}
+      - - {x: -138.5, y: 80}
+        - {x: -142.5, y: 76}
+        - {x: -142.5, y: 71}
+        - {x: -140.5, y: 70}
+        - {x: -136.5, y: 70}
+        - {x: -134.5, y: 73}
+        - {x: -134.5, y: 78}
+        - {x: -135.5, y: 80}
+    - name: RobotBoyRunSprite_8
       rect:
         serializedVersion: 2
-        x: 550
-        y: 1498
-        width: 275
-        height: 275
+        x: 570
+        y: 1248
+        width: 285
+        height: 400
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: RobotBoyRun10
+      outline:
+      - - {x: 121.5, y: -200}
+        - {x: 121.5, y: -198}
+        - {x: 118.5, y: -197}
+        - {x: 116.5, y: -200}
+      - - {x: 106.5, y: 31}
+        - {x: 102.5, y: 27}
+        - {x: 101.5, y: 19}
+        - {x: 98.5, y: 16}
+        - {x: 97.5, y: 12}
+        - {x: 96.5, y: 13}
+        - {x: 100.5, y: 18}
+        - {x: 107.5, y: 63}
+        - {x: 107.5, y: 66}
+        - {x: 58.5, y: 122}
+        - {x: -45.5, y: 122}
+        - {x: -108.5, y: 53}
+        - {x: -108.5, y: -126}
+        - {x: -48.5, y: -149}
+        - {x: 89.5, y: -149}
+        - {x: 102.5, y: -125}
+        - {x: 107.5, y: -64}
+        - {x: 107.5, y: 28}
+      - - {x: -134.5, y: 80}
+        - {x: -138.5, y: 76}
+        - {x: -138.5, y: 71}
+        - {x: -136.5, y: 70}
+        - {x: -132.5, y: 70}
+        - {x: -130.5, y: 73}
+        - {x: -130.5, y: 78}
+        - {x: -131.5, y: 80}
+      - - {x: -129.5, y: 99}
+        - {x: -136.5, y: 99}
+        - {x: -136.5, y: 91}
+        - {x: -135.5, y: 87}
+        - {x: -133.5, y: 86}
+        - {x: -129.5, y: 86}
+        - {x: -127.5, y: 91}
+        - {x: -127.5, y: 96}
+    - name: RobotBoyRunSprite_9
       rect:
         serializedVersion: 2
-        x: 825
-        y: 1498
-        width: 275
-        height: 275
+        x: 855
+        y: 1248
+        width: 285
+        height: 400
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: RobotBoyRun11
+      outline:
+      - - {x: 118.5, y: -199}
+        - {x: 118.5, y: -200}
+        - {x: 124.5, y: -200}
+        - {x: 124.5, y: -198}
+        - {x: 122.5, y: -196}
+        - {x: 121.5, y: -196}
+      - - {x: 109.5, y: 30}
+        - {x: 105.5, y: 26}
+        - {x: 104.5, y: 18}
+        - {x: 101.5, y: 15}
+        - {x: 100.5, y: 11}
+        - {x: 99.5, y: 12}
+        - {x: 103.5, y: 17}
+        - {x: 110.5, y: 62}
+        - {x: 110.5, y: 65}
+        - {x: 61.5, y: 121}
+        - {x: -25.5, y: 121}
+        - {x: -33.5, y: 120}
+        - {x: -114.5, y: 61}
+        - {x: -114.5, y: -18}
+        - {x: -93.5, y: -116}
+        - {x: -55.5, y: -141}
+        - {x: -19.5, y: -150}
+        - {x: 88.5, y: -150}
+        - {x: 97.5, y: -123}
+        - {x: 110.5, y: -33}
+        - {x: 110.5, y: 27}
+      - - {x: -131.5, y: 79}
+        - {x: -135.5, y: 75}
+        - {x: -135.5, y: 70}
+        - {x: -133.5, y: 69}
+        - {x: -129.5, y: 69}
+        - {x: -127.5, y: 72}
+        - {x: -127.5, y: 77}
+        - {x: -128.5, y: 79}
+      - - {x: -125.5, y: 99}
+        - {x: -132.5, y: 99}
+        - {x: -132.5, y: 91}
+        - {x: -131.5, y: 87}
+        - {x: -129.5, y: 86}
+        - {x: -125.5, y: 86}
+        - {x: -123.5, y: 91}
+        - {x: -123.5, y: 96}
+    - name: RobotBoyRunSprite_10
       rect:
         serializedVersion: 2
-        x: 1100
-        y: 1498
-        width: 275
-        height: 275
+        x: 1140
+        y: 1248
+        width: 285
+        height: 400
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: RobotBoyRun12
+      outline:
+      - - {x: 127.5, y: -200}
+        - {x: 127.5, y: -198}
+        - {x: 124.5, y: -197}
+        - {x: 122.5, y: -200}
+      - - {x: 111.5, y: 28}
+        - {x: 108.5, y: 27}
+        - {x: 107.5, y: 19}
+        - {x: 104.5, y: 16}
+        - {x: 103.5, y: 12}
+        - {x: 102.5, y: 13}
+        - {x: 106.5, y: 18}
+        - {x: 113.5, y: 63}
+        - {x: 113.5, y: 66}
+        - {x: 64.5, y: 122}
+        - {x: -40.5, y: 122}
+        - {x: -102.5, y: 69}
+        - {x: -102.5, y: -41}
+        - {x: -93.5, y: -103}
+        - {x: -54.5, y: -147}
+        - {x: 1.5, y: -149}
+        - {x: 78.5, y: -149}
+        - {x: 105.5, y: -124}
+        - {x: 113.5, y: -33}
+        - {x: 113.5, y: 28}
+      - - {x: -128.5, y: 80}
+        - {x: -132.5, y: 76}
+        - {x: -132.5, y: 71}
+        - {x: -130.5, y: 70}
+        - {x: -126.5, y: 70}
+        - {x: -124.5, y: 73}
+        - {x: -124.5, y: 78}
+        - {x: -125.5, y: 80}
+      - - {x: -122.5, y: 98}
+        - {x: -129.5, y: 98}
+        - {x: -129.5, y: 90}
+        - {x: -128.5, y: 86}
+        - {x: -126.5, y: 85}
+        - {x: -122.5, y: 85}
+        - {x: -120.5, y: 90}
+        - {x: -120.5, y: 95}
+    - name: RobotBoyRunSprite_11
       rect:
         serializedVersion: 2
-        x: 1375
-        y: 1498
-        width: 275
-        height: 275
+        x: 1425
+        y: 1248
+        width: 285
+        height: 400
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: RobotBoyRun13
-      rect:
-        serializedVersion: 2
-        x: 1650
-        y: 1498
-        width: 275
-        height: 275
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: RobotBoyRun14
+      outline:
+      - - {x: 116.5, y: 55}
+        - {x: 114.5, y: 64}
+        - {x: 66.5, y: 121}
+        - {x: -18.5, y: 121}
+        - {x: -27.5, y: 120}
+        - {x: -48.5, y: 99}
+        - {x: -90.5, y: 36}
+        - {x: -90.5, y: 9}
+        - {x: -82.5, y: -25}
+        - {x: -87.5, y: -105}
+        - {x: -74.5, y: -121}
+        - {x: -49.5, y: -139}
+        - {x: 39.5, y: -150}
+        - {x: 73.5, y: -150}
+        - {x: 88.5, y: -144}
+        - {x: 103.5, y: -123}
+        - {x: 116.5, y: -22}
+      - - {x: -125.5, y: 79}
+        - {x: -129.5, y: 75}
+        - {x: -129.5, y: 70}
+        - {x: -127.5, y: 69}
+        - {x: -123.5, y: 69}
+        - {x: -121.5, y: 72}
+        - {x: -121.5, y: 77}
+        - {x: -122.5, y: 79}
+      - - {x: -119.5, y: 99}
+        - {x: -126.5, y: 99}
+        - {x: -126.5, y: 91}
+        - {x: -125.5, y: 87}
+        - {x: -123.5, y: 86}
+        - {x: -119.5, y: 86}
+        - {x: -117.5, y: 91}
+        - {x: -117.5, y: 96}
+    - name: RobotBoyRunSprite_12
       rect:
         serializedVersion: 2
         x: 0
-        y: 1223
-        width: 275
-        height: 275
+        y: 848
+        width: 285
+        height: 400
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: RobotBoyRun15
+      outline:
+      - - {x: 101.5, y: -16}
+        - {x: 101.5, y: 44}
+        - {x: 94.5, y: 62}
+        - {x: 65.5, y: 97}
+        - {x: 39.5, y: 112}
+        - {x: -39.5, y: 112}
+        - {x: -65.5, y: 92}
+        - {x: -99.5, y: 21}
+        - {x: -99.5, y: -104}
+        - {x: -96.5, y: -122}
+        - {x: -85.5, y: -132}
+        - {x: -63.5, y: -146}
+        - {x: 1.5, y: -157}
+        - {x: 20.5, y: -159}
+        - {x: 58.5, y: -159}
+        - {x: 73.5, y: -153}
+        - {x: 88.5, y: -132}
+        - {x: 99.5, y: -27}
+      - - {x: 107.5, y: 200}
+        - {x: 106.5, y: 199}
+        - {x: 106.5, y: 195}
+        - {x: 108.5, y: 194}
+        - {x: 112.5, y: 194}
+        - {x: 113.5, y: 196}
+        - {x: 114.5, y: 200}
+    - name: RobotBoyRunSprite_13
       rect:
         serializedVersion: 2
-        x: 275
-        y: 1223
-        width: 275
-        height: 275
+        x: 285
+        y: 848
+        width: 285
+        height: 400
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 94.5, y: 52}
+        - {x: 89.5, y: 63}
+        - {x: 71.5, y: 90}
+        - {x: 47.5, y: 111}
+        - {x: 34.5, y: 113}
+        - {x: -34.5, y: 113}
+        - {x: -64.5, y: 92}
+        - {x: -103.5, y: 43}
+        - {x: -103.5, y: -29}
+        - {x: -102.5, y: -34}
+        - {x: -101.5, y: -77}
+        - {x: -95.5, y: -122}
+        - {x: -62.5, y: -147}
+        - {x: -7.5, y: -158}
+        - {x: 68.5, y: -158}
+        - {x: 96.5, y: -134}
+        - {x: 103.5, y: -56}
+        - {x: 103.5, y: 32}
+      - - {x: -138.5, y: 71}
+        - {x: -142.5, y: 67}
+        - {x: -142.5, y: 62}
+        - {x: -140.5, y: 61}
+        - {x: -136.5, y: 61}
+        - {x: -134.5, y: 64}
+        - {x: -134.5, y: 69}
+        - {x: -135.5, y: 71}
+      - - {x: 111.5, y: 200}
+        - {x: 110.5, y: 199}
+        - {x: 110.5, y: 195}
+        - {x: 112.5, y: 194}
+        - {x: 116.5, y: 194}
+        - {x: 117.5, y: 196}
+        - {x: 118.5, y: 200}
+    - name: RobotBoyRunSprite_14
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 848
+        width: 285
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 106.5, y: 22}
+        - {x: 102.5, y: 18}
+        - {x: 101.5, y: 10}
+        - {x: 98.5, y: 7}
+        - {x: 97.5, y: 3}
+        - {x: 96.5, y: 4}
+        - {x: 100.5, y: 9}
+        - {x: 107.5, y: 56}
+        - {x: 107.5, y: 57}
+        - {x: 63.5, y: 113}
+        - {x: -65.5, y: 113}
+        - {x: -108.5, y: 75}
+        - {x: -108.5, y: -115}
+        - {x: -92.5, y: -146}
+        - {x: -26.5, y: -158}
+        - {x: 76.5, y: -158}
+        - {x: 101.5, y: -134}
+        - {x: 107.5, y: -70}
+        - {x: 107.5, y: 19}
+      - - {x: -134.5, y: 71}
+        - {x: -138.5, y: 67}
+        - {x: -138.5, y: 62}
+        - {x: -136.5, y: 61}
+        - {x: -132.5, y: 61}
+        - {x: -130.5, y: 64}
+        - {x: -130.5, y: 69}
+        - {x: -131.5, y: 71}
+      - - {x: -129.5, y: 90}
+        - {x: -136.5, y: 90}
+        - {x: -136.5, y: 82}
+        - {x: -135.5, y: 78}
+        - {x: -133.5, y: 77}
+        - {x: -129.5, y: 77}
+        - {x: -127.5, y: 82}
+        - {x: -127.5, y: 87}
+      - - {x: 115.5, y: 200}
+        - {x: 113.5, y: 198}
+        - {x: 113.5, y: 195}
+        - {x: 115.5, y: 193}
+        - {x: 118.5, y: 193}
+        - {x: 120.5, y: 195}
+        - {x: 121.5, y: 200}
+    - name: RobotBoyRunSprite_15
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 848
+        width: 285
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 110.5, y: 18}
+        - {x: 109.5, y: 21}
+        - {x: 105.5, y: 17}
+        - {x: 104.5, y: 9}
+        - {x: 101.5, y: 6}
+        - {x: 100.5, y: 2}
+        - {x: 99.5, y: 3}
+        - {x: 103.5, y: 8}
+        - {x: 110.5, y: 55}
+        - {x: 110.5, y: 56}
+        - {x: 56.5, y: 112}
+        - {x: -24.5, y: 112}
+        - {x: -33.5, y: 111}
+        - {x: -114.5, y: 91}
+        - {x: -114.5, y: -134}
+        - {x: -54.5, y: -146}
+        - {x: -47.5, y: -146}
+        - {x: 9.5, y: -157}
+        - {x: 30.5, y: -159}
+        - {x: 67.5, y: -159}
+        - {x: 82.5, y: -153}
+        - {x: 97.5, y: -132}
+        - {x: 110.5, y: -42}
+      - - {x: -131.5, y: 70}
+        - {x: -135.5, y: 66}
+        - {x: -135.5, y: 61}
+        - {x: -133.5, y: 60}
+        - {x: -129.5, y: 60}
+        - {x: -127.5, y: 63}
+        - {x: -127.5, y: 68}
+        - {x: -128.5, y: 70}
+      - - {x: -125.5, y: 90}
+        - {x: -132.5, y: 90}
+        - {x: -132.5, y: 82}
+        - {x: -131.5, y: 78}
+        - {x: -129.5, y: 77}
+        - {x: -125.5, y: 77}
+        - {x: -123.5, y: 82}
+        - {x: -123.5, y: 87}
+      - - {x: 117.5, y: 200}
+        - {x: 116.5, y: 199}
+        - {x: 116.5, y: 196}
+        - {x: 118.5, y: 194}
+        - {x: 121.5, y: 194}
+        - {x: 123.5, y: 196}
+        - {x: 124.5, y: 200}
+    outline: []
   spritePackingTag: 
   userData: 
   assetBundleName: 
+  assetBundleVariant: 
