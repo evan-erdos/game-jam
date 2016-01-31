@@ -6,8 +6,8 @@ using System.Collections;
 public class SwitchArea : MonoBehaviour {
 
 	bool wait, isPlayerNear;
-	float delay = 0.1f;
-	int n = 0;
+	float delay = 2f;
+	public int n = 0;
 	public string level = "Forest";
 	GameObject player;
 	public AudioClip clip;
@@ -20,7 +20,8 @@ public class SwitchArea : MonoBehaviour {
 	IEnumerator Switching() {
 		if (wait) yield break;
 		wait = true;
-		AudioSource.PlayClipAtPoint(clip, transform.position, 0.8f);
+
+		AudioSource.PlayClipAtPoint(clip, transform.position, 1f);
 		UnityStandardAssets._2D.PlatformerCharacter2D.storePosition = player.transform.position;
 		var scene = SceneManager.GetSceneByName(level+" "+n);
 		SceneManager.LoadSceneAsync(level+" "+n);
