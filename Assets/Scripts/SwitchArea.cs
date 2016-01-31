@@ -20,8 +20,8 @@ public class SwitchArea : MonoBehaviour {
 	IEnumerator Switching() {
 		if (wait) yield break;
 		wait = true;
-
-		AudioSource.PlayClipAtPoint(clip, transform.position, 1f);
+		if (clip)
+			AudioSource.PlayClipAtPoint(clip, transform.position, 1f);
 		UnityStandardAssets._2D.PlatformerCharacter2D.storePosition = player.transform.position;
 		var scene = SceneManager.GetSceneByName(level+" "+n);
 		SceneManager.LoadSceneAsync(level+" "+n);
