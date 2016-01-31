@@ -57,7 +57,7 @@ public class PlatformController : MonoBehaviour {
 
 		yield return new WaitForSeconds (endDelay);
 
-		Debug.Log ("In coroutine after delay");
+//		Debug.Log ("In coroutine after delay");
 
 		movingToTarget = !movingToTarget;
 
@@ -70,7 +70,7 @@ public class PlatformController : MonoBehaviour {
 		if (!on) return;
 
 		if ((transform.localPosition - Target).magnitude < 1f) {
-			Debug.Log ("Switching directions");
+			//Debug.Log ("Switching directions");
 			StartCoroutine (SwitchingDirection ());
 		}
 		transform.localPosition = Vector3.SmoothDamp (transform.localPosition, Target, ref speed, delay);

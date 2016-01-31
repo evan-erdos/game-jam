@@ -144,7 +144,7 @@ public class Lever : MonoBehaviour, IPiece<int> {
     IEnumerator Pulling(bool t) {
         if (wait) yield break;
         wait = true;
-        print("asdfasd");
+        //print("asdfasd");
         if (t) Pull();
         else Push();
         yield return new WaitForSeconds(delay);
